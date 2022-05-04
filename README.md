@@ -11,3 +11,4 @@ hospital death probability and the ICU death probabilty which are scores outputt
 Out of the raw medical stats minimum temperature, minimum blood oxygen levels, maximum temperature, and minimum systolic blood pressure were all identified as highly 
 important features in the decision trees of this random forest model, suggesting they are some of the best predictors of ICU mortality.
   
+In the future I plan to apply some different resampling strategies such as SMOTE to see if it produces a higher recall rate without too much loss in precision for the deceased class.
